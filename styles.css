@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FF8E9E
+}
+
+.container
+{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lol
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    width: 500px;
+    height: 250px;
+    font-size: 2rem;
+    background-color: #EEEEEE;
+    border: none;
+    box-shadow: 0 5px 20px 0 black;
+    border-radius: 30px;
+}
+#lol:hover
+{
+    border: solid 3px #434242 ;
+}
+#lol:active
+{
+    position: relative;
+    top: 5px;
+}
+
+#reset
+{
+    position: absolute;
+    top: 85%;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #EEEEEE;
+    color: #434242;
+    border-radius: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    box-shadow: 0 3px 10px 0 black;
+}
+#reset:hover
+{
+    background-color: #434242;
+    color: #EEEEEE;
+}
+#reset:active
+{
+    top: 85.6%;
+}
